@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 import csv
 
 
@@ -29,6 +30,7 @@ def csvRead():
         print("统计科目数目：", temp)
         print("已修学分：", sum_credit)
         print("成绩绩点为：", '%.3f' % (average_point / sum_credit))
+        input("是否继续：")
 
 
 if __name__ == "__main__":
